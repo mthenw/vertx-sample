@@ -2,5 +2,5 @@ var vertx = require('vertx');
 var container = require('vertx/container');
 
 vertx.createHttpServer().requestHandler(function(req) {
-    req.response.end('Hello from Vert.x!');
+    req.response.end('Hello from Vert.x 2.1.1!');
 }).listen(parseInt(container.env.get('PORT')));
