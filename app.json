@@ -1,6 +1,7 @@
 {
     "name": "vertx-sample",
     "repository": "https://github.com/mthenw/vertx-sample",
+    "logo": "http://vertx.io/logo-white-big.png",
     "keywords": [
         "vertx"
     ],
