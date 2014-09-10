@@ -15,7 +15,7 @@ Your app should now be running on [localhost:5000](http://localhost:5000/).
 ## Deploying to Heroku
 
 ```
-heroku create --stack cedar --buildpack https://github.com/mthenw/heroku-buildpack-vertx.git
+heroku create --buildpack https://github.com/mthenw/heroku-buildpack-vertx.git
 git push heroku master
 heroku open
 ```
