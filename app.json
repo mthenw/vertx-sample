@@ -1,0 +1,9 @@
+{
+  "name": "vert.x sample",
+  "description": "Barebones Vert.x app for Heroku.",
+  "logo": "http://vertx.io/logo-white-big.png",
+  "keywords": ["vertx", "sample"],
+  "env": {
+    "BUILDPACK_URL": "https://github.com/mthenw/heroku-buildpack-vertx.git"
+  }
+}
